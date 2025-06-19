@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nowcasting-toolbox-py"
+version = "0.1.0"
+description = "The ECB Nowcasting Toolbox Python implementation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Carmen Pelayo Fernández", email = "carmen.pelayo@bbva.com" }
+]
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "scikit-learn>=1.2",
+  "statsmodels>=0.14",
+  "matplotlib>=3.6",
+  "python-dateutil>=2.8"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/baptiste-meunier/Nowcasting_toolbox"
+"Repository" = "https://github.com/tu-usuario/nowcasting_toolbox_py"
