@@ -1,0 +1,6 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+statsmodels>=0.14
+matplotlib>=3.6
+python-dateutil>=2.8
